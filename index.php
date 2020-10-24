@@ -23,7 +23,7 @@
         <main>
             
             <firgure>
-                <img src="img_p1/juan_doe.png">
+                <img src="img/juan_doe.png" <alt="">
             </firgure>
             
             <div>
