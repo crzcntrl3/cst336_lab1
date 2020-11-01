@@ -36,7 +36,7 @@ in html
         <!-- div with an id called content -->
         <div id="content">
             <!-- embed google form into contact page -->
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_4PdNTdO7f49SYMqAj0mL7VfRL5_Aot1YkuwDBbdl5CuiEA/viewform?embedded=true" width="640" height="943" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_4PdNTdO7f49SYMqAj0mL7VfRL5_Aot1YkuwDBbdl5CuiEA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </div>
         
         <!-- This is the footer -->
