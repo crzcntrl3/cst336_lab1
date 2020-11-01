@@ -27,7 +27,7 @@ in html
         </header>
         <hr/>
         <nav>
-            <a href="index.php"> Home </a>
+            <a href="index.php" id="current-page"> Home </a>
             <a href="about.php"> About </a>
             <a href="contact.php"> Contact </a>
         </nav>
@@ -65,7 +65,7 @@ in html
             It is used for academic purposes only.
             
             <figure>
-                <img src="img/CSUMB Logo White.png" alt="CSUMB Logo" class="footerLogo" />
+                <img src="img/CSUMB Logo White.png" alt="CSUMB Logo" class="footer-logo" />
             </figure>
         </footer>
         <!-- closing footer -->

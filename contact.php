@@ -29,7 +29,7 @@ in html
         <nav>
             <a href="index.php"> Home </a>
             <a href="about.php"> About </a>
-            <a href="contact.php"> Contact </a>
+            <a href="contact.php" id="current-page"> Contact </a>
         </nav>
         
         <br /><br />
@@ -48,7 +48,7 @@ in html
             It is used for academic purposes only.
             
             <figure>
-                <img src="img/CSUMB Logo White.png" alt="CSUMB Logo" class="footerLogo" />
+                <img src="img/CSUMB Logo White.png" alt="CSUMB Logo" class="footer-logo" />
             </figure>
         </footer>
         <!-- closing footer -->
