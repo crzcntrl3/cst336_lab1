@@ -33,28 +33,11 @@ in html
         </nav>
         
         <br /><br />
-        
-        <main>
-            
-            <firgure>
-                <img src="img/juan_doe.png" alt="Picture of Juan Doe" />
-            </firgure>
-            
-            <div>
-                Hello! <br />
-                <p>Thank you for visiting my professional portfolio website.</p>
-                
-                <p>I am a Software Engineer and have been recently hired at the Acme Corporation.</p>
-                
-                <p>Feel free to contact me !</p>
-                
-                <br /><br />
-                
-                <em>"With ordinary talent and extraordinary <strong>perserverance</strong>, all things are attainable"</em><br />
-                - Thomas F. Buxton
-                
-            </div>
-        </main>
+        <!-- div with an id called content -->
+        <div id="content">
+            <!-- embed google form into contact page -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_4PdNTdO7f49SYMqAj0mL7VfRL5_Aot1YkuwDBbdl5CuiEA/viewform?embedded=true" width="640" height="943" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->

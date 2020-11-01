@@ -33,28 +33,37 @@ in html
         </nav>
         
         <br /><br />
-        
-        <main>
+        <!-- div with an id called content -->
+        <div id="content">
+            <!-- Create the table to hold experience data -->
+            <table>
+                <tr id="table-header">
+                    <td><strong>Programming Language</strong></td>
+                    <td><strong>Years Experience</strong></td>
+                </tr>
+                <tr class="table-row">
+                    <td>Java</td>
+                    <td>3</td>
+                </tr>
+                <tr class="table-row">
+                    <td>C++</td>
+                    <td>2</td>
+                </tr>
+                <tr class="table-row">
+                    <td>PHP</td>
+                    <td>1</td>
+                </tr>
+            </table>
             
-            <firgure>
-                <img src="img/juan_doe.png" alt="Picture of Juan Doe" />
-            </firgure>
+            <br /><br />
             
-            <div>
-                Hello! <br />
-                <p>Thank you for visiting my professional portfolio website.</p>
-                
-                <p>I am a Software Engineer and have been recently hired at the Acme Corporation.</p>
-                
-                <p>Feel free to contact me !</p>
-                
-                <br /><br />
-                
-                <em>"With ordinary talent and extraordinary <strong>perserverance</strong>, all things are attainable"</em><br />
-                - Thomas F. Buxton
-                
-            </div>
-        </main>
+            <ul>
+                <li><span class="hobby">Basketball</span>: I have always played and watched basketball my entire life, and favorite professional team is the Golden State Warriors</li>
+                <li><span class="hobby">Music</span>: I have always loved music, and my favorite genre changes with my mood</li>
+                <li><span class="hobby">Video games</span>: I have always played games as long as I can remember, my current favorite is Apex Legends</li>
+                <li><span class="hobby">Programming</span>: I have always has an itch when it comes to problem solving, and programming scratches that itch.</li>
+            </ul>
+        </div>
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->

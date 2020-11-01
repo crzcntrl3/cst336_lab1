@@ -1,0 +1,78 @@
+body {
+    background-color:black;
+    color:gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a { /* links within "nav" container */
+    padding:15px;
+    padding-bottom:4px;
+    font-size:1.8em;
+    text-decoration: none; /* removes underline */
+    color: white;          /* by default, links are blue */
+}
+
+nav a:hover {    /* pseudo class */
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s;    /* transistion effect */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color:Yellow;
+    font-size: small;
+}
+
+.footerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    background-color: #753900;
+    margin: 0 auto;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
